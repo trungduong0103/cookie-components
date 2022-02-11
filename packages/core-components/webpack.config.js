@@ -23,6 +23,8 @@ function getEntries() {
   return entry;
 }
 
+// console.log(getEntries())
+
 module.exports = {
   mode: "development",
   // specifies where webpack will start bundle code
@@ -33,6 +35,7 @@ module.exports = {
   // defaults to ./dist/bundle.js
   output: {
     filename: "[name].js",
+    libraryTarget: "commonjs2"
   },
 
   // helps with debugging

@@ -13,11 +13,9 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1"
+    "react-dom": "^17.0.2"
   },
   "publishConfig": {
     "directory": "dist"
-  },
-  "gitHead": "a858ad3bbe4047030e532e7541fe6bbb3e07d60e"
+  }
 }

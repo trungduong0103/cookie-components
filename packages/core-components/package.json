@@ -16,6 +16,7 @@
     "react-router-dom": "^6.2.1"
   },
   "publishConfig": {
-    "directory": "build"
-  }
+    "directory": "dist"
+  },
+  "gitHead": "c2686e46801bd9e89d1e1736882de65f7d3de636"
 }

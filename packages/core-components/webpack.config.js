@@ -32,7 +32,7 @@ module.exports = {
   // specifies where webpack will output the bundle result
   // defaults to ./dist/bundle.js
   output: {
-    filename: "[name].[fullhash].js",
+    filename: "[name].js",
   },
 
   // helps with debugging

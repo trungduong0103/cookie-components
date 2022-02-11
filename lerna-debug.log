@@ -7,7 +7,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/trung/Desktop/Tutorials/captaincookie
 3 info versioning independent
-4 verbose session 4412a905bb5efad3
+4 verbose session 27f2aaa2b74f33c6
 5 verbose user-agent lerna/4.0.0/node@v14.17.0+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
 7 verbose rootPath /Users/trung/Desktop/Tutorials/captaincookie
@@ -20,14 +20,14 @@
 14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@captaincookie/core-components@1.0.1-1-g30fb76f" => {"lastTagName":"@captaincookie/core-components@1.0.1","lastVersion":"1.0.1","refCount":"1","sha":"30fb76f","isDirty":false}
-18 info Looking for changed packages since @captaincookie/core-components@1.0.1
+17 silly git-describe.sync "@captaincookie/core-components@1.0.2-1-g2b183c7" => {"lastTagName":"@captaincookie/core-components@1.0.2","lastVersion":"1.0.2","refCount":"1","sha":"2b183c7","isDirty":false}
+18 info Looking for changed packages since @captaincookie/core-components@1.0.2
 19 silly checking diff packages/core-components
 20 silly found diff in packages/core-components/package.json
 21 verbose filtered diff [ 'packages/core-components/package.json' ]
 22 verbose updated @captaincookie/core-components
-23 verbose git-describe undefined => "@captaincookie/core-components@1.0.1-1-g30fb76f"
-24 silly git-describe parsed => {"lastTagName":"@captaincookie/core-components@1.0.1","lastVersion":"1.0.1","refCount":"1","sha":"30fb76f","isDirty":false}
+23 verbose git-describe undefined => "@captaincookie/core-components@1.0.2-1-g2b183c7"
+24 silly git-describe parsed => {"lastTagName":"@captaincookie/core-components@1.0.2","lastVersion":"1.0.2","refCount":"1","sha":"2b183c7","isDirty":false}
 25 info execute Skipping releases
 26 silly lifecycle No script for "preversion" in "root", continuing
 27 silly lifecycle No script for "preversion" in "@captaincookie/core-components", continuing
@@ -36,18 +36,18 @@
 30 silly gitAdd [ 'packages/core-components/package.json' ]
 31 silly gitCommit Publish
 31 silly gitCommit
-31 silly gitCommit  - @captaincookie/core-components@1.0.2
+31 silly gitCommit  - @captaincookie/core-components@1.0.3
 32 verbose git [
 32 verbose git   'commit',
 32 verbose git   '-F',
-32 verbose git   '/private/var/folders/97/h0v13rsn1jxbg6fq5cbtdgnw0000gp/T/623c7b84-8d1f-439e-8ff0-39fc35011b4c/lerna-commit.txt'
+32 verbose git   '/private/var/folders/97/h0v13rsn1jxbg6fq5cbtdgnw0000gp/T/2b1cf16f-bd5b-4e36-bdfe-b1db8fe658c5/lerna-commit.txt'
 32 verbose git ]
-33 silly gitTag @captaincookie/core-components@1.0.2
+33 silly gitTag @captaincookie/core-components@1.0.3
 34 verbose git [
 34 verbose git   'tag',
-34 verbose git   '@captaincookie/core-components@1.0.2',
+34 verbose git   '@captaincookie/core-components@1.0.3',
 34 verbose git   '-m',
-34 verbose git   '@captaincookie/core-components@1.0.2'
+34 verbose git   '@captaincookie/core-components@1.0.3'
 34 verbose git ]
 35 silly lifecycle No script for "postversion" in "@captaincookie/core-components", continuing
 36 silly lifecycle No script for "postversion" in "root", continuing
@@ -56,28 +56,32 @@
 39 info publish Publishing packages to npm...
 40 info Verifying npm credentials
 41 verbose Retrieving npm user profile
-42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 582ms
+42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 502ms
 43 silly npm profile get received {"tfa":{"pending":false,"mode":"auth-only"},"name":"trungduong0103","email":"trungduong0103@gmail.com","email_verified":true,"created":"2022-02-11T07:27:47.973Z","updated":"2022-02-11T09:14:54.867Z","cidr_whitelist":null}
 44 silly get npm username received {"username":"trungduong0103","tfa":{"pending":false,"mode":"auth-only"},"name":"trungduong0103","email":"trungduong0103@gmail.com","email_verified":true,"created":"2022-02-11T07:27:47.973Z","updated":"2022-02-11T09:14:54.867Z","cidr_whitelist":null}
 45 silly verifyNpmPackageAccess
-46 http fetch GET 200 https://registry.npmjs.org/-/org/trungduong0103/package?format=cli 455ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/-/org/trungduong0103/package?format=cli 428ms (cache updated)
 47 info Checking two-factor auth mode
 48 verbose Retrieving npm user profile
-49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 330ms
+49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 361ms
 50 silly npm profile get received {"tfa":{"pending":false,"mode":"auth-only"},"name":"trungduong0103","email":"trungduong0103@gmail.com","email_verified":true,"created":"2022-02-11T07:27:47.973Z","updated":"2022-02-11T09:14:54.867Z","cidr_whitelist":null}
 51 silly 2FA { pending: false, mode: 'auth-only' }
 52 warn ENOLICENSE Package @captaincookie/core-components is missing a license.
 52 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 52 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 53 silly getCurrentSHA
-54 verbose getCurrentSHA c2686e46801bd9e89d1e1736882de65f7d3de636
+54 verbose getCurrentSHA bed5011ea9e11baf4f37943c298ae4e988dcfdf3
 55 silly lifecycle No script for "prepublish" in "root", continuing
 56 silly lifecycle No script for "prepare" in "root", continuing
 57 silly lifecycle No script for "prepublishOnly" in "root", continuing
 58 silly lifecycle No script for "prepack" in "root", continuing
-59 verbose pack-directory packages/core-components/build
+59 verbose pack-directory packages/core-components/dist
 60 silly lifecycle No script for "prepublish" in "@captaincookie/core-components", continuing
 61 silly lifecycle No script for "prepare" in "@captaincookie/core-components", continuing
 62 silly lifecycle No script for "prepublishOnly" in "@captaincookie/core-components", continuing
 63 silly lifecycle No script for "prepack" in "@captaincookie/core-components", continuing
-64 error
+64 silly lifecycle No script for "postpack" in "@captaincookie/core-components", continuing
+65 verbose packed packages/core-components/dist
+66 silly lifecycle No script for "postpack" in "root", continuing
+67 verbose publish @captaincookie/core-components
+68 error

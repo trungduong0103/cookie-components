@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "prepare": "yarn build && cp package.json ./build",
     "build": "rimraf dist && webpack --config webpack.config.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -18,5 +19,5 @@
   "publishConfig": {
     "directory": "dist"
   },
-  "gitHead": "c2686e46801bd9e89d1e1736882de65f7d3de636"
+  "gitHead": "bed5011ea9e11baf4f37943c298ae4e988dcfdf3"
 }

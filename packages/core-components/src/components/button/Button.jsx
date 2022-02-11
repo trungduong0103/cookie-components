@@ -1,3 +1,3 @@
 export default function Button({ title }) {
-  return <button>{title}</button>;
+  return <button>Button: {title}</button>;
 }

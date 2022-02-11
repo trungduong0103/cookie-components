@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prepare": "yarn build && cp package.json ./dist",
+    "prepare": "yarn build && cp package.json ./build",
     "build": "rimraf dist && webpack --config webpack.config.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

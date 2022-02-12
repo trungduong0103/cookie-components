@@ -26,7 +26,7 @@ function getEntries() {
 // console.log(getEntries())
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   // specifies where webpack will start bundle code
   // defaults to ./src/index.js
   entry: getEntries(),
@@ -35,7 +35,7 @@ module.exports = {
   // defaults to ./dist/bundle.js
   output: {
     filename: "[name].js",
-    libraryTarget: "commonjs2"
+    libraryTarget: "commonjs2",
   },
 
   // helps with debugging
@@ -55,7 +55,7 @@ module.exports = {
       },
 
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [
           {
             loader: "style-loader",
@@ -63,6 +63,7 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
+              // enable css modules
               modules: true,
               sourceMap: true,
             },

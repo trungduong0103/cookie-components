@@ -1,4 +1,4 @@
-import Button from "../../../dist/button.js";
+import Button from "../../../dist/button";
 
 export default { title: "Button" };
 

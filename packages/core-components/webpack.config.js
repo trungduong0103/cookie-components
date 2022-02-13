@@ -40,7 +40,7 @@ module.exports = {
 
   // helps with debugging
   // https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map
-  devtool: "inline-source-map",
+  // devtool: "inline-source-map",
 
   module: {
     rules: [
@@ -67,6 +67,9 @@ module.exports = {
               modules: true,
               sourceMap: true,
             },
+          },
+          {
+            loader: "postcss-loader",
           },
         ],
       },
